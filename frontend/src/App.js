@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import GenericButton from './components/GenericButton.js'; 
+import GenericButton from './components/GenericButton/index.js'; 
 
 function App() {
   return (
