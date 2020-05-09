@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import GenericButton from './components/GenericButton.js'; 
 
 function App() {
   return (
@@ -18,7 +19,9 @@ function App() {
         >
           Dont Learn React
           Kyle is kool 
+          Shannon is Kooler
         </a>
+        <GenericButton label='sheep'></GenericButton>
       </header>
     </div>
   );
