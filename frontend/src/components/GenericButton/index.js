@@ -8,4 +8,4 @@ class GenericButton extends React.PureComponent {
     }
 }
 
-export default GenericButton; 
+export default GenericButton;
