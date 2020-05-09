@@ -18,6 +18,7 @@ function App() {
         >
           Dont Learn React
           Kyle is kool 
+          Shannon is Kooler
         </a>
       </header>
     </div>
