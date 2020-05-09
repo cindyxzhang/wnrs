@@ -22,6 +22,7 @@ function App() {
           Shannon is Kooler
         </a>
         <GenericButton label='sheep'></GenericButton>
+        <GenericButton label='instructions'></GenericButton>
       </header>
     </div>
   );
