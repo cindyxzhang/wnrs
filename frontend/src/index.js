@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import './pages/Landing.css'; 
+import Landing from './pages/Landing'; 
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Landing />
   </React.StrictMode>,
   document.getElementById('root')
 );

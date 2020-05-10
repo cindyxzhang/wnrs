@@ -1,19 +1,13 @@
 /* button */
 
 .g-button {
-<<<<<<< HEAD
-/* position: absolute; */
-=======
-
->>>>>>> 4918964b343e21fce63efdb6ae160d66410109e4
 width: 304px;
 height: 82px;
 color: white; 
-background-color:#B65854;
+background-color: #EB966F;
 border-radius: 25px;
-/* bottom: 7.32%; */
 border: none; 
 font-size: 36px; 
-
-box-shadow: 5px 5px #A6332E;
+box-shadow: 5px 5px #C3B2AE;
+margin: 10px;
 }
