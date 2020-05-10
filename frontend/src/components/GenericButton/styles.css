@@ -10,4 +10,13 @@ border: none;
 font-size: 36px; 
 box-shadow: 5px 5px #C3B2AE;
 margin: 10px;
+outline: none;
+}
+
+.g-button:hover {background-color: #3e8e41}
+
+.g-button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
