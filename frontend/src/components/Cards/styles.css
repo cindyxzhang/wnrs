@@ -1,0 +1,17 @@
+/* stack of cards */
+
+.card1 {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    margin: 0 auto;
+    width: 370px;
+    height: 510px;
+    background-color: #FAFAFA;
+    border-radius: 40px;
+    box-shadow: 5px 5px #282828;
+    font-size: 30px;
+    color: #B65854;
+}
