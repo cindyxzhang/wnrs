@@ -2,10 +2,10 @@
 
 .card1 {
     display: flex;
-    margin: auto;
     align-items: center;
     justify-content: center;
     align-self: center;
+    height: 100vh;
     margin: 0 auto;
     width: 370px;
     height: 510px;
