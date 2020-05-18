@@ -1,0 +1,30 @@
+.Instructions {
+  text-align: left;
+  color: white;
+  background-color: #e27d6b;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.Instr-header {
+  color: white;
+  background-color: #e27d6b;
+  display: flex;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  margin: 40px;
+  line-height: 40px;
+}
+
+.Ins-back {
+  align-self: center;
+  justify-content: center;
+}
+/* .Ins-left {
+  padding: 10px;
+}
+
+.Ins-right {
+  padding: 10px;
+} */
