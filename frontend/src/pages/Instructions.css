@@ -11,20 +11,21 @@
   color: white;
   background-color: #e27d6b;
   display: flex;
-  justify-content: center;
+  flex-direction: row;
   font-size: calc(10px + 2vmin);
-  margin: 40px;
   line-height: 40px;
 }
 
 .Ins-back {
   align-self: center;
-  justify-content: center;
 }
-/* .Ins-left {
-  padding: 10px;
+
+.Ins-left {
+  padding: 0px 30px 0px 60px;
+  width: 50vw;
 }
 
 .Ins-right {
-  padding: 10px;
-} */
+  padding: 0px 30px 0px 60px;
+  width: 50vw;
+}
