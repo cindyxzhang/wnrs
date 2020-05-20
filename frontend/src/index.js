@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
+import Level1Card from './pages/Level1Card';
+import './pages/Level1Card.css';
+import Players from './pages/Players';
+import './pages/Players.css'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Players />
   </React.StrictMode>,
   document.getElementById('root')
 );

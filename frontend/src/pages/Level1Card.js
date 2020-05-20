@@ -1,6 +1,6 @@
 import React from 'react';
 import './Level1Card.css';
-import GameCards from './components/Cards/index.js';
+import GameCards from '../components/Cards/index.js';
 
 function Level1Card() {
   return (
