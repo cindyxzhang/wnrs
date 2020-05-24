@@ -1,0 +1,31 @@
+.Instructions {
+  text-align: left;
+  color: white;
+  background-color: #e27d6b;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.Instr-header {
+  color: white;
+  background-color: #e27d6b;
+  display: flex;
+  flex-direction: row;
+  font-size: calc(10px + 2vmin);
+  line-height: 40px;
+}
+
+.Ins-back {
+  align-self: center;
+}
+
+.Ins-left {
+  padding: 0px 50px 0px 70px;
+  width: 50vw;
+}
+
+.Ins-right {
+  padding: 0px 70px 0px 50px;
+  width: 50vw;
+}

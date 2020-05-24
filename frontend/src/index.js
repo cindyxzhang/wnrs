@@ -6,10 +6,13 @@ import * as serviceWorker from "./serviceWorker";
 import "./pages/Landing.css";
 import Landing from "./pages/Landing";
 import Instructions from "./pages/Instructions";
+import Perception from "./pages/Levels/Perception";
+import Connection from "./pages/Levels/Connection";
+import Reflection from "./pages/Levels/Reflection";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Instructions />
+    <Perception />
   </React.StrictMode>,
   document.getElementById("root")
 );
