@@ -3,10 +3,12 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
+import Instructions from "./pages/Instructions";
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Instructions />
   </React.StrictMode>,
   document.getElementById("root")
 );

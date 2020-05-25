@@ -1,14 +1,26 @@
 /* button */
 
 .g-button {
-width: 304px;
-height: 82px;
-color: white; 
-background-color:#B65854;
-border-radius: 25px;
-/* bottom: 7.32%; */
-border: none; 
-font-size: 36px; 
+  width: 304px;
+  height: 82px;
+  color: #e68977;
+  background-color: white;
+  border-radius: 25px;
+  border: none;
+  font-size: 36px;
+  box-shadow: 5px 5px #c3b2ae;
+  margin: 50px;
+  outline: none;
+}
 
-box-shadow: 5px 5px #A6332E;
+.g-button:hover {
+  background-color: #d6fff6;
+}
+
+
+
+.g-button:active {
+  background-color: #c1e7dd;
+  box-shadow: 0 5px #b7876b;
+  transform: translateY(4px);
 }
