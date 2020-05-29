@@ -1,6 +1,6 @@
 import React from "react";
 import "./Instructions.css";
-import GenericButton from "../../components/GenericButton/GenericButton.js";
+import GenericButton from "../../components/GenericButton/index.js";
 
 function Instructions() {
   return (

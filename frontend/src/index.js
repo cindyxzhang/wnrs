@@ -3,16 +3,15 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
-import "./pages/Landing.css";
-import Landing from "./pages/Landing";
-import Instructions from "./pages/Instructions";
+import Landing from "./pages/Landing/Landing";
+import Instructions from "./pages/Instructions/Instructions";
 import Perception from "./pages/Levels/Perception";
 import Connection from "./pages/Levels/Connection";
 import Reflection from "./pages/Levels/Reflection";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Perception />
+    <Instructions />
   </React.StrictMode>,
   document.getElementById("root")
 );
