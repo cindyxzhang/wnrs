@@ -5,13 +5,14 @@ import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import Landing from "./pages/Landing/Landing";
 import Instructions from "./pages/Instructions/Instructions";
-import Perception from "./pages/Levels/Perception";
-import Connection from "./pages/Levels/Connection";
-import Reflection from "./pages/Levels/Reflection";
+import Perception from "./pages/LevelPage/Perception";
+import Connection from "./pages/LevelPage/Connection";
+import Reflection from "./pages/LevelPage/Reflection";
+import Final from "./pages/LevelPage/Final";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Instructions />
+    <Final />
   </React.StrictMode>,
   document.getElementById("root")
 );
