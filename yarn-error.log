@@ -1,0 +1,46 @@
+Arguments: 
+  /Users/kylehua/.nvm/versions/node/v12.16.1/bin/node /usr/local/Cellar/yarn/1.22.4/libexec/bin/yarn.js check --integrity
+
+PATH: 
+  /Users/kylehua/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/bin:/Users/kylehua/.rbenv/versions/2.6.3/bin:/usr/local/Cellar/rbenv/1.1.2/libexec:/Users/kylehua/.rbenv/plugins/rbenv-binstubs/bin:/Users/kylehua/desktop/strangers/bin:/Users/kylehua/.nvm/versions/node/v12.16.1/bin:/Users/kylehua/.rbenv/shims:/usr/local/sbin:/usr/local/bin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.16.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  TypeError: Cannot read property '@rails/ujs@^6.0.0' of undefined
+      at /usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:47688:25
+      at Array.filter (<anonymous>)
+      at InstallationIntegrityChecker.<anonymous> (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:47687:38)
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:310:30)
+      at /usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:328:14
+      at new Promise (<anonymous>)
+      at new F (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:5301:28)
+      at InstallationIntegrityChecker.<anonymous> (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:307:12)
+      at InstallationIntegrityChecker.check (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:47736:21)
+
+npm manifest: 
+  {
+    "name": "strangers",
+    "private": true,
+    "dependencies": {
+      "@rails/ujs": "^6.0.0",
+      "turbolinks": "^5.2.0",
+      "@rails/activestorage": "^6.0.0",
+      "@rails/actioncable": "^6.0.0"
+    },
+    "version": "0.1.0"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

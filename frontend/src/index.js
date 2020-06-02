@@ -6,10 +6,10 @@ import Level1Card from './pages/Level1Card';
 import './pages/Level1Card.css';
 import Players from './pages/Players';
 import './pages/Players.css'
-
+import testcards from './pages/testcards';
 ReactDOM.render(
   <React.StrictMode>
-    <Players />
+    <Level1Card />
   </React.StrictMode>,
   document.getElementById('root')
 );
