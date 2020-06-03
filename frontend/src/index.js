@@ -9,10 +9,11 @@ import Perception from "./pages/LevelPage/Perception";
 import Connection from "./pages/LevelPage/Connection";
 import Reflection from "./pages/LevelPage/Reflection";
 import Final from "./pages/LevelPage/Final";
+import Email from "./pages/Email/Email";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Final />
+    <Email />
   </React.StrictMode>,
   document.getElementById("root")
 );
