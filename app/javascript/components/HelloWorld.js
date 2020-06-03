@@ -1,10 +1,10 @@
 import React from "react"
 import PropTypes from "prop-types"
 class HelloWorld extends React.Component {
-  render () {
+  render() {
     return (
       <React.Fragment>
-        Greeting: {this.props.greeting}
+        YOYOYOYOYO Greeting: {this.props.greeting}
       </React.Fragment>
     );
   }

@@ -102,3 +102,66 @@ Module not found: Error: Can't resolve 'react-swipe-card' in '/Users/kylehua/Des
 Completed 200 OK in 7513ms (Views: 7507.6ms | ActiveRecord: 0.0ms | Allocations: 11683)
 
 
+Started GET "/" for ::1 at 2020-06-02 22:22:45 -0700
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 313)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 23ms (Views: 18.8ms | ActiveRecord: 0.0ms | Allocations: 10537)
+
+
+Started GET "/" for ::1 at 2020-06-02 22:23:31 -0700
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 313)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 96635455c90a41eaac69
+Version: webpack 4.43.0
+Time: 1530ms
+Built at: 06/02/2020 10:23:34 PM
+                                          Asset      Size            Chunks                         Chunk Names
+         js/application-20b15da32ffa475b33fc.js  1.36 MiB       application  [emitted] [immutable]  application
+     js/application-20b15da32ffa475b33fc.js.map  1.54 MiB       application  [emitted] [dev]        application
+         js/hello_react-99823a42dfb737768a13.js  1.05 MiB       hello_react  [emitted] [immutable]  hello_react
+     js/hello_react-99823a42dfb737768a13.js.map  1.21 MiB       hello_react  [emitted] [dev]        hello_react
+    js/server_rendering-0f8003afff4546cb5583.js  1.25 MiB  server_rendering  [emitted] [immutable]  server_rendering
+js/server_rendering-0f8003afff4546cb5583.js.map  1.41 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                  manifest.json  1.05 KiB                    [emitted]              
+Entrypoint application = js/application-20b15da32ffa475b33fc.js js/application-20b15da32ffa475b33fc.js.map
+Entrypoint hello_react = js/hello_react-99823a42dfb737768a13.js js/hello_react-99823a42dfb737768a13.js.map
+Entrypoint server_rendering = js/server_rendering-0f8003afff4546cb5583.js js/server_rendering-0f8003afff4546cb5583.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 698 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 968 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.06 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 46 hidden modules
+
+ERROR in ./app/javascript/components/LevelOne/Level1Card.js
+Module not found: Error: Can't resolve '../components/Cards/index.js' in '/Users/kylehua/Desktop/wnrs/app/javascript/components/LevelOne'
+ @ ./app/javascript/components/LevelOne/Level1Card.js 4:0-53 15:38-47
+ @ ./app/javascript/components sync ^\.\/.*$
+ @ ./app/javascript/packs/server_rendering.js
+
+ERROR in ./app/javascript/components/Players/Players.js
+Module not found: Error: Can't resolve '../components/GenericButton/index.js' in '/Users/kylehua/Desktop/wnrs/app/javascript/components/Players'
+ @ ./app/javascript/components/Players/Players.js 4:0-65 31:38-51 47:38-51 63:38-51
+ @ ./app/javascript/components sync ^\.\/.*$
+ @ ./app/javascript/packs/server_rendering.js
+
+ERROR in ./app/javascript/components/testcards.js
+Module not found: Error: Can't resolve 'react-swipe-card' in '/Users/kylehua/Desktop/wnrs/app/javascript/components'
+ @ ./app/javascript/components/testcards.js 2:0-47 9:42-47 20:44-48
+ @ ./app/javascript/components sync ^\.\/.*$
+ @ ./app/javascript/packs/server_rendering.js
+
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2992ms (Views: 2978.7ms | ActiveRecord: 0.0ms | Allocations: 11743)
+
+
