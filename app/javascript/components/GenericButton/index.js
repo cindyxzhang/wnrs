@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './styles.css';
+import './styles.css';
 
 class GenericButton extends React.PureComponent {
     constructor(props){super(props)}
@@ -8,4 +8,4 @@ class GenericButton extends React.PureComponent {
     }
 }
 
-export default GenericButton; 
+export default GenericButton;
