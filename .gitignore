@@ -2,4 +2,7 @@
 .DS_Store
 
 #ignore tmp folder
+//log/*
 /tmp/*
+!/log/.keep
+!/tmp/.keep

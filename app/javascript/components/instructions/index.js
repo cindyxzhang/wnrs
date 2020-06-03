@@ -1,6 +1,6 @@
 import React from "react";
-import "./Instructions.css";
-import GenericButton from "../components/GenericButton/index.js";
+import "./styles.css";
+import GenericButton from "components/GenericButton/index.js";
 
 function Instructions() {
   return (
@@ -42,7 +42,7 @@ function Instructions() {
         </div>
       </div>
       <div className="Ins-back">
-        <GenericButton label="back"></GenericButton>
+        <GenericButton label="back" />
       </div>
     </div>
   );

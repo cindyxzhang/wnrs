@@ -1,11 +1,11 @@
 import React from 'react';
-import './Level1Card.css';
-import GameCards from '../components/Cards/index.js';
+import './styles.css';
+import Cards from 'components/Cards/index.js';
 
 function Level1Card() {
   return (
     <div className="Level1Card">
-        <GameCards label='what was your first impression of me?'></GameCards>
+      <Cards label='what was your first impression of me?' />
     </div>
   );
 }

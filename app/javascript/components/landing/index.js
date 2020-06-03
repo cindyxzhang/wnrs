@@ -1,6 +1,6 @@
 import React from "react";
-import "./Landing.css";
-import GenericButton from "../components/GenericButton/index.js";
+import "./styles.css";
+import GenericButton from "components/GenericButton/index.js";
 
 function Landing() {
   return (
@@ -13,9 +13,9 @@ function Landing() {
           meaningless relationships. our mission can be witnessed in its
           spontanous form on <em>'Too Hot to Handle.'</em>
         </p>
-        <GenericButton label="instructions"></GenericButton>
-        <GenericButton label="new game"></GenericButton>
-        <GenericButton label="join game"></GenericButton>
+        <GenericButton label="instructions" />
+        <GenericButton label="new game" />
+        <GenericButton label="join game" />
       </header>
     </div>
   );

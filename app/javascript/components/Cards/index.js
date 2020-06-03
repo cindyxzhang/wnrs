@@ -7,7 +7,7 @@ class GameCards extends React.PureComponent {
     render() {
         return (<div className="card1">{this.props.label}</div>);
     }
-    
+
 }
 
 
