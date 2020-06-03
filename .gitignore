@@ -6,3 +6,5 @@
 /tmp/*
 !/log/.keep
 !/tmp/.keep
+/log/*
+/public/*
