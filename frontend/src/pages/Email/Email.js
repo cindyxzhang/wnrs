@@ -1,8 +1,6 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import TextField from "@material-ui/core/TextField";
-import CssBaseline from "@material-ui/core/CssBaseline";
-import Container from "@material-ui/core/Container";
 import GenericButton from "../../components/GenericButton/index.js";
 import "./Email.css";
 
@@ -30,7 +28,10 @@ export default function BasicTextFields() {
   return (
     // need div tags that enclose entire return statement
     <div className="layout">
-      <h1>pls werk</h1>
+      <h1>
+        exchange emails with your partner and write them a message. they will
+        recieve it one hour after you click send.{" "}
+      </h1>
       <form className={classes.root} noValidate autoComplete="off">
         <div className="partner">
           <TextField
