@@ -8,11 +8,12 @@ const useStyles = makeStyles((theme) => ({
   root: {
     "& div.MuiTextField-root": {
       margin: theme.spacing(5),
-      width: "50ch",
+      width: "40ch",
       display: "flex",
     },
     "& div.MuiInputBase-root": {
       borderRadius: "25px",
+      fontSize: "20px",
     },
     "& div.MuiFilledInput-underline:before": {
       borderBottom: "none",
@@ -20,39 +21,50 @@ const useStyles = makeStyles((theme) => ({
     "& div.MuiFilledInput-underline:after": {
       borderBottom: "none",
     },
+    "& label.Mui-focused": {
+      color: "#BB5244",
+    },
+    "& label": {
+      fontSize: "21px",
+      color: "#282828",
+    },
   },
 }));
 
-export default function BasicTextFields() {
+function BasicTextFields() {
   const classes = useStyles();
   return (
     // need div tags that enclose entire return statement
-    <div className="layout">
-      <h1>
-        exchange emails with your partner and write them a message. they will
-        recieve it one hour after you click send.{" "}
-      </h1>
-      <form className={classes.root} noValidate autoComplete="off">
-        <div className="partner">
-          <TextField
-            id="outlined-basic"
-            label="Partner's Email"
-            variant="filled"
-          />
-        </div>
+    <div className="container">
+      <div className="layout">
+        <h2>
+          exchange emails with your partner and write them a message. they will
+          recieve it one hour after you click send.{" "}
+        </h2>
+        <form className={classes.root} noValidate autoComplete="off">
+          <div className="partner">
+            <TextField
+              id="outlined-basic"
+              label="partner's email"
+              variant="filled"
+            />
+          </div>
+          <div>
+            <TextField
+              id="outlined-multiline-static"
+              label="message"
+              multiline
+              rows={9}
+              variant="filled"
+            />
+          </div>
+        </form>
         <div>
-          <TextField
-            id="outlined-multiline-static"
-            label="Message"
-            multiline
-            rows={4}
-            variant="filled"
-          />
+          <GenericButton label="send" className=""></GenericButton>
         </div>
-      </form>
-      <div>
-        <GenericButton label="send" className=""></GenericButton>
       </div>
     </div>
   );
 }
+
+export default BasicTextFields;
