@@ -8,3 +8,4 @@
 !/tmp/.keep
 /log/*
 /public/*
+/node_modules
