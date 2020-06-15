@@ -1,13 +1,13 @@
-import React from 'react';
-import './styles.css';
-import Cards from 'components/Cards/index.js';
+import React from "react";
+import "./styles.css";
+import GameCards from "components/GameCards/index.js";
 
-function Level1Card() {
+function LevelOneCard() {
   return (
     <div className="Level1Card">
-      <Cards label='what was your first impression of me?' />
+      <GameCards label="what was your first impression of me?" />
     </div>
   );
 }
 
-export default Level1Card;
+export default LevelOneCard;
