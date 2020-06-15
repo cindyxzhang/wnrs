@@ -1,6 +1,6 @@
 import React from "react";
-import "./styles.css";
-import GenericButton from "components/GenericButton/index.js";
+import "./Instructions.css";
+import GenericButton from "../../components/GenericButton/index.js";
 
 function Instructions() {
   return (
@@ -27,22 +27,30 @@ function Instructions() {
           <h2>The Cards </h2>
           <ol>
             <li>
-              Wildcards will appear at random throughout each level. Complete
-              the instructions. These are meant to be spontaneous.{" "}
+              <i>
+                <b>Wildcards</b>
+              </i>{" "}
+              will appear at random throughout each level. Complete the
+              instructions. These are meant to be spontaneous.{" "}
             </li>
             <li>
-              Dig Deeper cards are meant to promote transparancy if you feel
-              your partner is holding back. Each player gets one per level.{" "}
+              <i>
+                <b>Dig Deeper</b>
+              </i>{" "}
+              cards are meant to promote transparancy if you feel your partner
+              is holding back. Each player gets one per level.{" "}
             </li>
             <li>
-              The Final Card is the last card of the game. Stay tuned to see
-              what it is!{" "}
+              <i>
+                <b>The Final Card</b>
+              </i>{" "}
+              is the last card of the game. Stay tuned to see what it is!{" "}
             </li>
           </ol>
         </div>
       </div>
       <div className="Ins-back">
-        <GenericButton label="back" />
+        <GenericButton label="back"></GenericButton>
       </div>
     </div>
   );

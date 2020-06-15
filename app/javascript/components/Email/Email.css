@@ -1,0 +1,15 @@
+.container {
+  color: #282828;
+  line-height: 50px;
+  font-size: calc(6px + 2vmin);
+  background-color: #f4f4f4;
+}
+
+.layout {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  margin: 60px;
+}
+
+/* "#E27D6B" */
