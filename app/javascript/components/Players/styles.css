@@ -1,19 +1,42 @@
-.heading {
-  font-size: 75px;
+.layout {
+<<<<<<< Updated upstream
+=======
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  margin: 60px;
+  background-color: #f4f4f4;
+}
+
+.layout h1 {
+  font-size: 70px;
   text-align: center;
   margin-bottom: 50px;
   margin-top: 50px;
 }
 
-.Players {
+/* .Players {
   display: flex;
+>>>>>>> Stashed changes
   flex-direction: column;
+  display: flex;
   align-items: center;
-  justify-content: center;
+  margin: 60px;
+  background-color: #f4f4f4;
+  overflow: hidden;
 }
 
+<<<<<<< Updated upstream
+.layout h1 {
+  font-size: calc(60px + 2vmin);
+  text-align: center;
+  margin-bottom: 100px;
+  color: #282828;
+}
+=======
 .buttons {
   display: flex;
   flex-direction: column;
   margin-bottom: 50px;
-}
+} */
+>>>>>>> Stashed changes
